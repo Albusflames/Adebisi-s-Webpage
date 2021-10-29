@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;700&display=swap');
+html {
+    font-family: 'Barlow', sans-serif;
+    background-image: url('images/work-hard\ 2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color:rgb(175, 60, 60)
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    position: absolute;
+    bottom: 45%;
+    right: 40px;
+}
+.social img {
+    display: block;
+    width: 20px;
+    margin-bottom: 10px;
+}
+.top-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top-block h1 {
+    display: block;
+}
+.top-block span {
+    display: block;
+    margin: 10px 10px;
+}
+.top-block .top-left {
+    display: inline;
+    color: rgb(175, 60, 60);
+    cursor: pointer;
+    top: 25px;
+    right: 50px;
+}
+.center-block {
+    width: 100%;
+    bottom: 50%;
+}
+.center-block h1{
+    font-size: 300%;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.center-block p {
+    line-height: 20px;
+    letter-spacing: 3px;;
+    width: 80%;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 80%;
+}
+.connect button {
+    margin-top: 10px;
+    width: 30%;
+    padding: 5px;
+    border:1px dashed rgb(175, 60, 60);
+}
+.connect p {
+    width: 80%;
+}
+@media screen and (min-width:800px) {
+    html {
+        background-image: url('images/work-hard\ 2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+main {
+    padding: 10px 20px 10px 20px;
+}
+a, button {
+    cursor: pointer;
+}
+.top-block {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+.top-block h1 {
+    display: block;
+}
+.top-block span {
+    margin: 10px 10px;
+}
+.top-block .top-left {
+    display: inline;
+    position: absolute;
+    color: rgb(175, 60, 60);
+    cursor: pointer;
+    top: 25px;
+    right: 50px;
+}
+.center-block {
+    position: absolute;
+    bottom: 50%;
+}
+.center-block p {
+    margin-bottom: -50px;
+    font-weight: 700;
+}
+.center-block h1{
+    font-size: 500%;
+    margin-top: 35px;
+    margin-bottom: -20px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.connect {
+    position: absolute;
+    bottom: 30%;
+}
+.connect button {
+    width: 100px;
+    padding: 5px;
+    border:1px dashed rgb(175, 60, 60);
+}
+.connect p {
+    display: inline;
+}
+.social {
+    position: absolute;
+    bottom: 10%;
+    left: 40px;
+}
+.social img {
+    width: 20px;
+    margin-bottom: 10px;
+}
+}
