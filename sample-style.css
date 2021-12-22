@@ -37,6 +37,9 @@ div:nth-child(2) {
 div:nth-child(3) {
     background-color: rgb(107, 16, 16);
 } 
+div:nth-child(4) {
+    background-color:  rgb(9, 9, 51);
+} 
 @media screen and (min-width: 800px) {
     html {
         background-image: url('images/bg-intro-desktop.png');
